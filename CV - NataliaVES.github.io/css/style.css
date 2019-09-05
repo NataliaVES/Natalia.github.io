@@ -1,0 +1,58 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans&display=swap&subset=cyrillic,latin-ext');
+
+*{
+    box-sizing:border-box;
+    font-family: 'Tenor Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 16px
+
+
+}
+#container {
+    display: flex;
+    flex-direction: column;
+   
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+a:visited {color: red;
+
+
+}
+.header {
+   
+    padding: 1rem;
+  
+
+}
+
+.header h1{
+    margin: 0;
+    font-size: 1.75rem
+}
+
+.header h2{
+    margin: 0;
+    font-size: 1.75rem
+}
+
+
+
+.menu-header {
+    display:flex;
+    padding: 1.5rem 0;
+    justify-content: space-around;
+
+}
+.article {
+    height:80vh
+}
+
+.footer {
+  
+
+}
